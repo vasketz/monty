@@ -16,7 +16,7 @@ int convert_line_token_to_int(char **token_line, int pos)
 		}
 		else
 		{
-			printf("L%d: usage: push integer", pos);
+			printf("L%d: usage: push integer\n", pos);
 			exit(EXIT_FAILURE);
 			return (0);
 		}
